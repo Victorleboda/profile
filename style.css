@@ -1,0 +1,77 @@
+body {
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  color: #1C4755;
+  font-weight: 800;
+  font-size: 20px;
+}
+h2 {
+  color: #666,
+  font-weight: 300;
+  font-size: 19px;
+}
+h3 {
+  color: #555,
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+a {
+  color: #897D7D;
+  font-size: 17px;
+  text-decoration: none;
+ }
+a:hover {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+li {
+  display: inline;
+  list-style: none; /* pour enlever les puces sur IE7 */
+  margin: 10px;
+}
+.card {
+  background: white;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-green {
+  display: inline-block;
+  background-color: #31B1A8;
+  color: white;
+  font-weight: 500;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+.btn-green:hover {
+  text-decoration: none;
+  background-color: #009b91;
+  color: #F7F7F7;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 735px;   /* This sets the width */
+  margin: 30px auto; /* This automatically sets left/right margins */
+}
+
+.profile-circle {
+  border-radius: 50%;
+}
